@@ -19,7 +19,24 @@ This project provides MATLAB scripts for preprocessing, segmentation, visualizat
 ---
 
 ## 📂 Project Structure
-
+Deep-Learning-main/
+│── code.m # Main execution script
+│── combine_thin_vessel.m # Combines thin vessel detections into final output
+│── MatchFilterWithGaussDerivative.m # Vessel enhancement using Gaussian derivative filters
+│── performance_measure.m # Computes sensitivity, specificity, and accuracy
+│── replace_black_ring.m # Preprocessing step to remove black border artifacts
+│── vessel_point_selected.m # Vessel point selection utility
+│── Performance.xlsx # Quantitative performance results
+│── RESULTS/ # Generated output images and metrics
+│── Visualization/ # Visualizations of segmented vessels
+│── sample image.tif # Sample retinal image
+│── sample_groundtruth.tif # Ground truth segmentation for validation
+│── F4_comparison_overlay.jpg # Overlay comparison between ground truth and output
+│── fig 1.png / fig 2.png / fig 3.png / fig 4.png # Experimental figures
+│── all in one.png # Combined visualization summary
+│── code implemetation.png # Flow diagram of implementation
+│── Final graduation thesis.pdf # Thesis document with methodology and results
+│── README.md # Project documentation
 
 ---
 
