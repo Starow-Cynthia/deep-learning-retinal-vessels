@@ -1,0 +1,24 @@
+# MATLAB autosave files
+*.asv
+
+# MATLAB data and backup files
+*.mat
+*.m~
+
+# MATLAB figures and cache
+*.fig
+*.slxc
+
+# Logs
+*.log
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+
+# Excel temporary files
+~$*.xlsx
+
+# Results and visualization folders (re-generated automatically)
+RESULTS/
+Visualization/
